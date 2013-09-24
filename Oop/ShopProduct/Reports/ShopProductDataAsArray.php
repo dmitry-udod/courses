@@ -21,7 +21,7 @@ class ShopProductDataAsArray extends ShopProductDataAbstract
     /**
      * Get product data as array
      *
-     * @param ShopProductAbstract $product
+     * @param  ShopProductAbstract $product
      * @return array
      */
     public static function getProductDataAsArray(ShopProductAbstract $product)
@@ -40,14 +40,3 @@ class ShopProductDataAsArray extends ShopProductDataAbstract
         var_dump($this->getData());
     }
 }
-
-
-
-
-
-
-
-
-
-
-

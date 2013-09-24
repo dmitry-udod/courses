@@ -14,7 +14,7 @@ abstract class AppliancesProductAbstract extends  ShopProductAbstract
     /**
      * @var int
      */
-    protected  $height;
+    protected $height;
 
     /**
      * @param int $height
