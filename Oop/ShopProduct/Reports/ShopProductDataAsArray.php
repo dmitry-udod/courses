@@ -35,6 +35,10 @@ class ShopProductDataAsArray extends ShopProductDataAbstract
         );
     }
 
+
+    /**
+     * Print product data as array
+     */
     public function displayData()
     {
         var_dump($this->getData());

@@ -18,6 +18,9 @@ class ShopProductDataAsJson extends ShopProductDataAbstract
         $this->setData(json_encode(ShopProductDataAsArray::getProductDataAsArray($product)));
     }
 
+    /**
+     * Print product data as JSON
+     */
     public function displayData()
     {
         echo $this->getData();

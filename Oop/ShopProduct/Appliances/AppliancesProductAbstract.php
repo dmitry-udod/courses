@@ -7,11 +7,15 @@ use Oop\ShopProduct\ShopProductAbstract;
 abstract class AppliancesProductAbstract extends  ShopProductAbstract
 {
     /**
+     * Product Width
+     *
      * @var int
      */
     protected $width;
 
     /**
+     * Product height
+     *
      * @var int
      */
     protected $height;

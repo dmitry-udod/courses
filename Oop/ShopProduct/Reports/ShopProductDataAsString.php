@@ -25,6 +25,9 @@ class ShopProductDataAsString extends ShopProductDataAbstract
         );
     }
 
+    /**
+     * Print product data
+     */
     public function displayData()
     {
         echo $this->getData();
